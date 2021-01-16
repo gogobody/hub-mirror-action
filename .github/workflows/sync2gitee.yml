@@ -33,6 +33,6 @@ jobs:
           dst: gitee/gogobody
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
-          static_list: 'hub-mirror,blog-img'
+          static_list: 'blog-img'
           account_type: user
           force_update: true
